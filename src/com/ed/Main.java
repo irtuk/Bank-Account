@@ -25,10 +25,15 @@ public class Main {
         System.out.println(nextVipCustomer.getCreditLimit());
         System.out.println(nextVipCustomer.getEmailAddress());
 
-        VipCustomer lastVipCustomer = new VipCustomer("wankshaft","wank@shaft.com",100000.00);
+        VipCustomer lastVipCustomer = new VipCustomer("customer","customer@bank.com",100000.00);
         System.out.println(lastVipCustomer.getName());
         System.out.println(lastVipCustomer.getCreditLimit());
         System.out.println(lastVipCustomer.getEmailAddress());
+        
+        VipCustomer EdVipCustomer = new VipCustomer("Ed","ed@ed.com",9999999.99);
+        System.out.println(EdVipCustomer.getName());
+        System.out.println(EdVipCustomer.getCreditLimit());
+        System.out.println(EdVipCustomer.getEmailAddress());
 
 
 
